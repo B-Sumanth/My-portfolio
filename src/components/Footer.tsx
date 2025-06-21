@@ -61,10 +61,10 @@ const Footer: React.FC = () => {
             <div>
               <a
                 href="/Sumanth_CV.pdf"
-                download
+                download>Download Resume (PDF)</a>
                 className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors"
               >
-                Download Resume(pdf)
+                Download Resume
               </a>
             </div>
           </div>
