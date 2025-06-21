@@ -26,9 +26,9 @@ const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
+      className="pt-24 min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
     >
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
         <div className="animate-fade-in-up">
 
           {/* Profile Photo */}
@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
             </div>
           </div>
 
-          {/* Name, Role, and CTA */}
+          {/* Name and Role */}
           <div className="space-y-8">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
