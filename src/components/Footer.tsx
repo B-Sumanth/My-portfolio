@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
                 download
                 className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors"
               >
-                Download Resume
+                Download Resume(pdf)
               </a>
             </div>
           </div>
