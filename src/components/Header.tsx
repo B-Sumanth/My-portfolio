@@ -1,5 +1,5 @@
 import React from 'react';
-import { Moon, Sun, Download, Mail, Phone, Linkedin, Github } from 'lucide-react';
+import { Moon, Sun, Mail, Phone, Linkedin, Github } from 'lucide-react';
 
 interface HeaderProps {
   darkMode: boolean;
@@ -54,7 +54,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
             </div>
           </div>
 
-          {/* Right side - Contact icons, Resume, Dark mode toggle */}
+          {/* Right side - Contact icons, Dark mode toggle */}
           <div className="flex items-center space-x-4">
             {/* Contact Icons */}
             <div className="hidden sm:flex items-center space-x-3">
@@ -91,16 +91,6 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
                 <Github className="h-5 w-5" />
               </a>
             </div>
-
-            {/* Resume Download */}
-            <a
-              href="/Sumanth_CV.pdf"
-              download
-              className="inline-flex items-center px-3 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition-colors"
-            >
-              <Download className="h-4 w-4 mr-2" />
-              Resume
-            </a>
 
             {/* Dark Mode Toggle */}
             <button
