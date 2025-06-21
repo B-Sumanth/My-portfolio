@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 mb-6 leading-relaxed">
               Passionate software developer dedicated to creating innovative solutions and continuously learning new technologies.
             </p>
-            
+
             {/* Contact Links */}
             <div className="space-y-3">
               <a
@@ -58,12 +58,16 @@ const Footer: React.FC = () => {
               </a>
             </div>
 
+            {/* Resume Download Button */}
             <div>
               <a
-                href="/Sumanth_CV.pdf" download>Download Resume (PDF)</a>
+                href="/Sumanth_CV.pdf"
+                download
                 className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Download Resume
+                Download Resume (PDF)
               </a>
             </div>
           </div>
