@@ -1,5 +1,5 @@
 import React from 'react';
-import { Moon, Sun, Mail, Phone, Linkedin, Github } from 'lucide-react';
+import { Moon, Sun, Linkedin, Github } from 'lucide-react';
 
 interface HeaderProps {
   darkMode: boolean;
