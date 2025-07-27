@@ -58,23 +58,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           <div className="flex items-center space-x-4">
             {/* Contact Icons */}
             <div className="hidden sm:flex items-center space-x-3">
-              <a
-                href="mailto:bsumanth333@gmail.com"
-                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Mail className="h-5 w-5" />
-              </a>
-              <a
-                href="tel:+916303101478"
-                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Phone className="h-5 w-5" />
-              </a>
-              <a
+            <a
                 href="https://linkedin.com/in/sumanth-bopparaju"
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 target="_blank"
