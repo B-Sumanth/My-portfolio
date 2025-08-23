@@ -3,20 +3,25 @@ import { Github, ExternalLink, Folder } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const projects = [
+     {
+      title: 'Voice Assistant',
+      description: 'A python voice assistant using speech recognition and wikipedia API.',
+      github: 'https://github.com/B-Sumanth/Voice_Assist'
+    },
     {
       title: 'Playfair Simulation & Steganography',
       description: 'A cryptographic project implementing Playfair cipher simulation with steganography techniques.',
-      github: 'https://github.com/B-Sumanth'
+      github: 'https://github.com/B-Sumanth/Playfair-simulation-and-Steganography'
     },
     {
       title: 'Agribot',
       description: 'An agricultural automation bot designed to assist farmers with crop monitoring and management.',
-      github: 'https://github.com/B-Sumanth'
+      github: 'https://github.com/B-Sumanth/Agribot'
     },
     {
       title: 'Netflix Clone',
       description: 'A full-featured Netflix clone with modern UI/UX and streaming capabilities.',
-      github: 'https://github.com/B-Sumanth'
+      github: 'https://github.com/B-Sumanth/Netflix'
     }
   ];
 
