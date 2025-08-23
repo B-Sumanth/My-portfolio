@@ -12,11 +12,6 @@ const Experience: React.FC = () => {
       title: 'AWS Virtual Internship',
       period: 'Jul–Sep 2024',
       type: 'Virtual Internship'
-    },
-    {
-      title: 'Logicwhile Python Internship',
-      period: 'Dec 2024',
-      type: 'Internship'
     }
   ];
 
