@@ -3,7 +3,7 @@ import { Code, Users, Lightbulb, MessageCircle } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const technicalSkills = [
-    'C', 'Python', 'Java', 'HTML', 'CSS', 'SQL', 'MySQL', 'Visual Studio'
+    'C', 'Python', 'Java', 'HTML', 'CSS', 'Visual Studio'
   ];
 
   const softSkills = [
