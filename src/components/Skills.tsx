@@ -1,18 +1,21 @@
 import React from 'react';
-import { Code, Users, Lightbulb, MessageCircle } from 'lucide-react';
+import { Code, Database, Monitor, Users, Lightbulb, MessageCircle, Wrench } from 'lucide-react';
 
 const Skills: React.FC = () => {
-  const technicalSkills = [
-    'C', 'Python', 'Java', 'HTML', 'CSS', 'Visual Studio'
-  ];
-
-  const softSkills = [
-    { name: 'Communication', icon: <MessageCircle className="h-5 w-5" /> },
-    { name: 'Teamwork', icon: <Users className="h-5 w-5" /> },
-    { name: 'Leadership', icon: <Users className="h-5 w-5" /> },
-    { name: 'Blog Writing', icon: <MessageCircle className="h-5 w-5" /> },
-    { name: 'Analytical Thinking', icon: <Lightbulb className="h-5 w-5" /> }
-  ];
+  const skills = {
+    programming: ['Java', 'Python', 'C'],
+    web: ['HTML', 'CSS'],
+    database: ['SQL'],
+    tools: ['Visual Studio Code', 'Git', 'AWS'],
+    soft: [
+      { name: 'Communication', icon: <MessageCircle className="h-5 w-5" /> },
+      { name: 'Teamwork', icon: <Users className="h-5 w-5" /> },
+      { name: 'Leadership', icon: <Users className="h-5 w-5" /> },
+      { name: 'Analytical Thinking', icon: <Lightbulb className="h-5 w-5" /> },
+      { name: 'Commitment', icon: <Lightbulb className="h-5 w-5" /> },
+      { name: 'Adaptability', icon: <MessageCircle className="h-5 w-5" /> },
+    ],
+  };
 
   return (
     <section id="skills" className="py-20 bg-gray-50 dark:bg-gray-800">
@@ -28,32 +31,89 @@ const Skills: React.FC = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Technical Skills */}
-          <div className="bg-white dark:bg-gray-900 rounded-xl p-8 shadow-lg border border-gray-200 dark:border-gray-700">
-            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 flex items-center">
-              <Code className="h-6 w-6 text-orange-600 dark:text-orange-400 mr-3" />
-              Technical Skills
-            </h3>
-            <div className="grid grid-cols-2 gap-3">
-              {technicalSkills.map((skill, index) => (
-                <div
-                  key={index}
-                  className="bg-orange-50 dark:bg-orange-900/20 text-orange-800 dark:text-orange-300 px-4 py-2 rounded-lg text-center text-sm font-medium hover:bg-orange-100 dark:hover:bg-orange-900/30 transition-colors"
-                >
-                  {skill}
-                </div>
-              ))}
+          {/* Left column: Technical Skills */}
+          <div className="bg-white dark:bg-gray-900 rounded-xl p-8 shadow-lg border border-gray-200 dark:border-gray-700 space-y-6">
+            {/* Programming */}
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
+                <Code className="h-5 w-5 text-orange-600 dark:text-orange-400 mr-2" />
+                Programming Skills
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {skills.programming.map((item, i) => (
+                  <span
+                    key={i}
+                    className="bg-orange-50 dark:bg-orange-900/20 text-orange-800 dark:text-orange-300 px-3 py-1.5 rounded-lg text-sm font-medium"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Web Technologies */}
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
+                <Monitor className="h-5 w-5 text-orange-600 dark:text-orange-400 mr-2" />
+                Web Technologies
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {skills.web.map((item, i) => (
+                  <span
+                    key={i}
+                    className="bg-orange-50 dark:bg-orange-900/20 text-orange-800 dark:text-orange-300 px-3 py-1.5 rounded-lg text-sm font-medium"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Database */}
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
+                <Database className="h-5 w-5 text-orange-600 dark:text-orange-400 mr-2" />
+                Database
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {skills.database.map((item, i) => (
+                  <span
+                    key={i}
+                    className="bg-orange-50 dark:bg-orange-900/20 text-orange-800 dark:text-orange-300 px-3 py-1.5 rounded-lg text-sm font-medium"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Tools */}
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
+                <Wrench className="h-5 w-5 text-orange-600 dark:text-orange-400 mr-2" />
+                Tools
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {skills.tools.map((item, i) => (
+                  <span
+                    key={i}
+                    className="bg-orange-50 dark:bg-orange-900/20 text-orange-800 dark:text-orange-300 px-3 py-1.5 rounded-lg text-sm font-medium"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
 
-          {/* Soft Skills */}
+          {/* Right column: Soft Skills */}
           <div className="bg-white dark:bg-gray-900 rounded-xl p-8 shadow-lg border border-gray-200 dark:border-gray-700">
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 flex items-center">
               <Users className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-3" />
               Soft Skills
             </h3>
             <div className="space-y-3">
-              {softSkills.map((skill, index) => (
+              {skills.soft.map((skill, index) => (
                 <div
                   key={index}
                   className="flex items-center bg-blue-50 dark:bg-blue-900/20 text-blue-800 dark:text-blue-300 px-4 py-3 rounded-lg hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-colors"
