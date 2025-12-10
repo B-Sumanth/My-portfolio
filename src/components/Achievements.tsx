@@ -4,6 +4,11 @@ import { Trophy, Award, Medal } from 'lucide-react';
 const Achievements: React.FC = () => {
   const achievements = [
     {
+      title: 'USG-Disciplinary Committee at SRUMUN'25',
+      description: 'Recognized and was appreciated for leadership skills over 50 members in the committee, maintaining decorum and making the event successful',
+      icon: <BadgeCheck className="h-6 w-6" />
+    },
+    {
       title: 'Led LokSabha as Scribe at SRUMUN\'24',
       description: 'Recognized for exceptional leadership and organizational skills',
       icon: <Award className="h-6 w-6" />
