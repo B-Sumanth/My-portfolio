@@ -3,6 +3,11 @@ import { Github, ExternalLink, Folder } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const projects = [
+    {
+      title: 'Sensor based parking assistant system',
+      description: 'A sesnor based parking assistant system which is helpful for the beginners, elderly people and is affordable .',
+      github: 'https://github.com/B-Sumanth/Capstone-Project'
+    },
      {
       title: 'Voice Assistant',
       description: 'A python voice assistant using speech recognition and wikipedia API.',
