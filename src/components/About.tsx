@@ -18,10 +18,7 @@ const About: React.FC = () => {
         <div className="max-w-3xl mx-auto">
           <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-center">
-              A passionate individual seeking opportunities in software development where I can apply my 
-              programming and problem-solving skills, gain real-world experience in building scalable web 
-              applications, and contribute to organizational growth while continuously enhancing my 
-              professional development.
+              A motivated Computer Science undergraduate seeking entry-level software development opportunities where I can apply my programming and problem-solving skills to build scalable applications while gaining real-world experience.
             </p>
           </div>
         </div>

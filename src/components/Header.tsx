@@ -56,25 +56,6 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
 
           {/* Right side - Contact icons, Dark mode toggle */}
           <div className="flex items-center space-x-4">
-            {/* Contact Icons */}
-            <div className="hidden sm:flex items-center space-x-3">
-            <a
-                href="https://linkedin.com/in/sumanth-bopparaju"
-                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a
-                href="https://github.com/B-Sumanth"
-                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Github className="h-5 w-5" />
-              </a>
-            </div>
 
             {/* Dark Mode Toggle */}
             <button
