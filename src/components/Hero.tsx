@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
   const texts = [
     'Software Engineer',
     'Programmer',
-    'Quick Learner'
+    'Quick Learner',
   ];
 
   useEffect(() => {
@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
               </p>
             </div>
 
-            {/* CTA Button (Arrow Removed) */}
+            {/* CTA Button */}
             <div className="pt-8">
               <button
                 onClick={() => {
@@ -81,6 +81,10 @@ const Hero: React.FC = () => {
               </button>
             </div>
           </div>
+
+        </div>
+      </div>
+    </section>
   );
 };
 
