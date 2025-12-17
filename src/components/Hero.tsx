@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const texts = [
-    'Software Development Enthusiast',
+    'Software Engineer',
     'Programmer',
     'Quick Learner'
   ];
