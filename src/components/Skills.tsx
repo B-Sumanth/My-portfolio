@@ -105,23 +105,23 @@ const Skills: React.FC = () => {
                 ))}
               </div>
             </div>
-          </div>
 
-          {/* Concepts */}
-          <div>
-            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-              Concepts
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {skills.concepts.map((item, i) => (
-                <span
-                  key={i}
-                  className="bg-orange-50 dark:bg-orange-900/20 text-orange-800 dark:text-orange-300 px-3 py-1.5 rounded-lg text-sm font-medium"
-                >
-                  {item}
-                </span>
-              ))}
-            </div>
+             {/* Concepts */}
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+                  Concepts
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {skills.concepts.map((item, i) => (
+                    <span
+                      key={i}
+                      className="bg-orange-50 dark:bg-orange-900/20 text-orange-800 dark:text-orange-300 px-3 py-1.5 rounded-lg text-sm font-medium"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
           </div>
 
 
