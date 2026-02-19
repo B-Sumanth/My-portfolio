@@ -88,24 +88,6 @@ const Skills: React.FC = () => {
               </div>
             </div>
 
-            {/* concepts */}
-            <div>
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
-                <Cpu className="h-5 w-5 text-orange-600 dark:text-orange-400 mr-2" />
-                Object-Oriented Programming with Java
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {skills.concepts.map((item, i) => (
-                  <span
-                    key={i}
-                    className="bg-orange-50 dark:bg-orange-900/20 text-orange-800 dark:text-orange-300 px-3 py-1.5 rounded-lg text-sm font-medium"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </div>
-
             {/* Tools */}
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
