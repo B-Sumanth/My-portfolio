@@ -5,27 +5,27 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: 'Sensor based parking assistant system',
-      description: 'A sesnor based parking assistant system which is helpful for the beginners, elderly people and is affordable .',
+      description: 'Designed the smart parking assistant system to detect obstacles in parking through the application of ultrasonic sensors and incorporate IoT to guide drivers during the parking process. The system displays distance feedback in real time, which is beneficial to young learners and older users. Majority oriented towards the integration of hardware, sensor calibration and precise distance determination.',
       github: 'https://github.com/B-Sumanth/Capstone-Project'
     },
      {
       title: 'Voice Assistant',
-      description: 'A python voice assistant using speech recognition and wikipedia API.',
+      description: 'Developed a Python voice assistant with support of speech recognition and Wikipedia API. The assistant is able to answer voice commands, provide real time information, and has the ability to perform simple automated functions. Introduced interactive user experience via natural language processing and audio input processing.',
       github: 'https://github.com/B-Sumanth/Voice_Assist'
     },
     {
       title: 'Playfair Simulation & Steganography',
-      description: 'A cryptographic project implementing Playfair cipher simulation with steganography techniques.',
+      description: 'Built a cryptography application, which further involves the Playfair encryption algorithm to encrypt messages and employs steganography to safely conceal the encrypted message within the files of media. The project reflects the practice of the classical theories of encryption and the concept of safe transmission of data.',
       github: 'https://github.com/B-Sumanth/Playfair-simulation-and-Steganography'
     },
     {
       title: 'Agribot',
-      description: 'An agricultural automation bot designed to assist farmers with crop monitoring and management.',
+      description: 'Developed an agricultural automation system that assists the farmers in monitoring their crops and managing their fields. The system is a system that incorporates sensor-based data gathering to enhance irrigation management and optimization of the resources to make farming operations more efficient.',
       github: 'https://github.com/B-Sumanth/Agribot'
     },
     {
       title: 'Netflix Clone',
-      description: 'A full-featured Netflix clone with modern UI/UX and streaming capabilities.',
+      description: 'Created a web-based application using Netflix as inspiration, with a modern user interface design and dynamic layout of the content. Introduced reusable elements and page navigation according to the principles of a streaming platform to duplicate its core interface.',
       github: 'https://github.com/B-Sumanth/Netflix'
     }
   ];

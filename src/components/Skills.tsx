@@ -7,6 +7,7 @@ const Skills: React.FC = () => {
     web: ['HTML', 'CSS'],
     database: ['SQL'],
     tools: ['Git','Github','Visual Studio Code'],
+    concepts: ['OOP with Java']
     soft: [
       { name: 'Communication', icon: <MessageCircle className="h-5 w-5" /> },
       { name: 'Teamwork', icon: <Users className="h-5 w-5" /> },

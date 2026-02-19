@@ -6,9 +6,9 @@ const Hero: React.FC = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const texts = [
+    'Frontend Web Developer',
     'Software Engineer',
-    'Programmer',
-    'Quick Learner',
+    'Full Stack Enthusiast',
   ];
 
   useEffect(() => {
@@ -52,6 +52,7 @@ const Hero: React.FC = () => {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Sumanth Bopparaju
+                Passionate about building real-world applications with Java and modern web technologies.
               </span>
             </h1>
 
