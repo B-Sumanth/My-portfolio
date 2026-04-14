@@ -4,13 +4,18 @@ import { Briefcase, Calendar } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
+      title: 'Loopync Private Limited Onsite Internship',
+      period: 'Jan - Mar 2026',
+      type: 'Onsite Internship'
+    },
+    {
       title: 'AICTE Google AIML Virtual Internship',
       period: 'Jan 2024',
       type: 'Virtual Internship'
     },
     {
       title: 'AWS Virtual Internship',
-      period: 'Jul–Sep 2024',
+      period: 'Jul – Sep 2024',
       type: 'Virtual Internship'
     }
   ];
