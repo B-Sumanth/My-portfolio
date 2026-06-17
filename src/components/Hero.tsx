@@ -6,9 +6,8 @@ const Hero: React.FC = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const texts = [
-    'Frontend Web Developer',
+    'AI Enthusiast',
     'Software Engineer',
-    'Full Stack Enthusiast',
   ];
 
   useEffect(() => {
@@ -59,7 +58,7 @@ const Hero: React.FC = () => {
             
             {/* Tagline */}
             <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Passionate about building real-world applications with Java and modern web technologies.
+              Transforming ideas into scalable software solutions through innovation and continuous learning.
             </p>
 
             {/* Animated Role Text */}

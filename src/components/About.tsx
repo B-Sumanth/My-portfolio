@@ -18,7 +18,13 @@ const About: React.FC = () => {
         <div className="max-w-3xl mx-auto">
           <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-center">
-              I am an undergraduate student of Computer Science who loves to create scalable and user friendly web applications. I am fond of working with Java, databases, and modern frontend technologies in order to develop end-to-end solutions.My emphasis is on the real-world project development and real-life implementation to enhance my practical skills of development. I want to develop as a Full Stack Developer who will be able to create secure, efficient, and impactful applications.</p>
+              Hello! I'm **Sumanth Bopparaju**, a Computer Science Engineering graduate from SR University with a passion for technology, innovation, and problem-solving. I have experience working with Java, Python, C, SQL, HTML, and CSS, along with practical exposure to Artificial Intelligence, Cloud Computing, and Software Development. Through internships and projects, including an AI-powered emotional support chatbot, voice assistant, and smart automation systems, I have developed a strong foundation in building technology-driven solutions.
+
+Beyond technical expertise, I enjoy taking on leadership roles and collaborating with teams to achieve meaningful outcomes. My experiences in hackathons, event management, and Model United Nations conferences have strengthened my communication, teamwork, and organizational skills. I am always eager to learn emerging technologies, contribute to impactful projects, and grow as a developer while creating solutions that make a real difference.
+
+**Best regards,**
+**Sumanth Bopparaju**
+</p>
           </div>
         </div>
       </div>

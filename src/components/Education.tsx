@@ -6,7 +6,7 @@ const Education: React.FC = () => {
     {
       institution: 'SR University',
       degree: 'Bachelor of Technology in Computer Science',
-      grade: 'GPA: 8.8/10',
+      grade: 'GPA: 8.94/10',
       icon: <GraduationCap className="h-6 w-6" />
     },
     {
