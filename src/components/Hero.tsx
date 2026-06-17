@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
               <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 p-1">
                 <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden">
                   <img
-                    src="main.JPG"
+                    src="main.png"
                     alt="Sumanth Bopparaju"
                     className="w-full h-full object-cover rounded-full"
                   />
