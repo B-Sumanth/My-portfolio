@@ -23,11 +23,6 @@ const Projects: React.FC = () => {
       description: 'Developed an agricultural automation system that assists the farmers in monitoring their crops and managing their fields. The system is a system that incorporates sensor-based data gathering to enhance irrigation management and optimization of the resources to make farming operations more efficient.',
       github: 'https://github.com/B-Sumanth/Agribot'
     },
-    {
-      title: 'Netflix Clone',
-      description: 'Created a web-based application using Netflix as inspiration, with a modern user interface design and dynamic layout of the content. Introduced reusable elements and page navigation according to the principles of a streaming platform to duplicate its core interface.',
-      github: 'https://github.com/B-Sumanth/Netflix'
-    }
   ];
 
   return (
